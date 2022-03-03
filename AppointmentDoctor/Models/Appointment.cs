@@ -17,6 +17,7 @@ namespace AppointmentDoctor.Models
         public string PatientId { get; set; }
         public bool IsDoctorApproved { get; set; }
         public string AdminId { get; set; }
-     
+        public int MYname { get; set; }
+
     }
 }
